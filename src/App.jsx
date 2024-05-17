@@ -11,6 +11,7 @@ import Product from "./Pages/Product";
 import Shop from "./Pages/Shop";
 import ShopCategories from "./Pages/ShopCategories";
 import NewCollections from "./Componets/NewCollections/NewCollections";
+import PlaceOlder from "./Componets/PlaceOlder/PlaceOlder";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignUp />} />
           <Route path="/newscollectios" element={<NewCollections />} />
+          <Route path="/order" element={<PlaceOlder />} />
         </Routes>
         <Footer />
       </BrowserRouter>
